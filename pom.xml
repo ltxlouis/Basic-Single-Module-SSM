@@ -410,7 +410,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>${tomcat7-maven-plugin.version}</version>
                 <configuration>
-                    <path>${tomcat-path.version}</path>
+                    <path>${tomcat-path.version}${name}</path>
                     <port>${tomcat-port.version}</port>
                     <uriEncoding>${tomcat-uri-encoding.version}</uriEncoding>
                     <url>http://localhost:8080/manager/text</url>
